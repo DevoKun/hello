@@ -7,6 +7,11 @@ hello
 * Requests can be sent to **ANY** URL.
 * This service will **always** return the json string: ```{ "hello": "world" }```
 
+## Why?
+
+* There are **MANY** very similar services available to be run from docker containers.
+* When I was pulling one of them, I was stunned how large the container was and that only a few urls were supported.
+* This little **hello** container is not meant to impress, but to be small, quick to pull, easy to use, and serve well when a test web service is needed.
 
 ## HTTP Service Port
 
